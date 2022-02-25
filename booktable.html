@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bon Gateau-Book a table</title>
+  <link rel="stylesheet" href="booktable.css">
+  <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-time">
+        <h2 class="heading">Time Open</h2>
+        <h3 class="heading-days">Monday-Friday</h3>
+        <p>7am - 11am (Breakfast)</p>
+        <p>11am - 10pm(Lunch/Dinner)</p>
+
+        <h3 class="heading-days">Saturday-Sunday</h3>
+        <p>9am - 1pm (Breakfast)</p>
+        <p>1pm - 10pm(Lunch/Dinner)</p>
+
+        <hr>
+
+        <h4 class="heading-phone">Call Us:626 511 1170</h4>
+        </div>
+
+        <div class="container-form">
+          <form action="pay2.html">
+            <h2 class="heading heading-yellow">Reservation Online</h2>
+            <div class="form-field">
+              <p>Your Name</p>
+              <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-field">
+              <p>Your Email</p>
+              <input type="email" placeholder="Your Email">
+            </div>
+            <div class="form-field">
+              <p>Date</p>
+              <input type="date">
+            </div>
+            <div class="form-field">
+              <p>Time</p>
+              <input type="time">
+            </div>
+            <div class="form-field">
+              <p>Number of People</p>
+              <select  name="select">
+                <option value="1">1 person</option>
+                <option value="2">2 persons</option>
+                <option value="3">3 persons</option>
+                <option value="4">4 persons</option>
+                <option value="5">5 persons</option>
+                <option value="5+">5+ persons</option>
+              </select>
+            </div>
+              <div class="form-field">
+              <p>Table Booking purpose</p>
+              <select  name="select">
+                <option value="1">Casual</option>
+                <option value="2">Meeting</option>
+                <option value="3">Celebration</option>
+                <option value="4">Lunch</option>
+                <option value="5">Dinner</option>
+              </select>
+            </div>
+            	<input type="submit" onclick="alert('Your table is booked, Please proceed to payment')" class="btn" value="Reserve a Table">
+            </form>
+          </div>
+        </div>
+        </body>
+        </html>

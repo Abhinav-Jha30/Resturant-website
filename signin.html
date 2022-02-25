@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+    <head>
+        <title>Sign In</title>
+		<link rel="stylesheet" href="signincss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <script>
+    function checkforblank(){
+      if(document.getElementById('fname').value=="")
+      {
+      alert('Please Enter the Details to Proceed');
+      return false;
+      }
+      else{
+        alert('Sign in was successful,returning to main page');
+      }
+    }
+    </script>
+    </head>
+
+  <body>
+
+        <div class="form-wrap">
+
+            <form action="resturant.html" onsubmit="return checkforblank()">
+
+                <h1>Sign In</h1>
+
+				<label for="fname"><p>First name:</p></label>
+				<input type="text" id="fname" name="fname" placeholder="Enter First Name">
+				<label for="lname"><p>Last name:</p></label>
+				<input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+				<label for="email"><p>Email ID:</p></label>
+				<input type="text" id="email" name="email" placeholder="abc@gmail.com">
+				<label for="pwd"><p>Password</p></label>
+				<input type="password" id="pwd" name="pwd" placeholder="********">
+				<label for="pwd"><p>Confirm Password</p></label>
+				<input type="password" id="pwd" name="pwd" placeholder="********">
+				<input type="submit"  value="Sign In">
+
+            </form>
+
+        </div>
+
+
+
+    </body>
+
+
+
+</html>

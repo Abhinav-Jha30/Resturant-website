@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+
+
+<html>
+
+
+    <head>
+        <title>Review us</title>
+		<link rel="stylesheet" href="reviewuscss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
+
+        <div class="form-wrap">
+
+            <form action="finalhtml.html">
+
+                <h1>Please Review Your Experience with Us</h1>
+
+				<label for="fname"><p>First name:</p></label>
+				<input type="text" id="fname" name="fname" placeholder="Enter First Name">
+				<label for="lname"><p>Last name:</p></label>
+				<input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+				<label for="email"><p>Email ID:</p></label>
+				<input type="text" id="email" name="email" placeholder="abc@gmail.com">
+				<p>Rate us out of 10 Stars:</p>
+				<input list="rating" name="rating">
+                <datalist id="rating">
+                <option value="1 Star">
+                <option value="2 Star">
+                <option value="3 Star">
+                <option value="4 Star">
+                <option value="5 Star">
+				<option value="6 Star">
+                <option value="7 Star">
+                <option value="8 Star">
+                <option value="9 Star">
+                <option value="10 Star">
+				</datalist>
+				<p>Any Comments:</p>
+				<div>
+                <textarea name="comments"placeholder="Hey" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+                </textarea>
+				<input type="submit" onclick="alert('Thankyou for your reviews,returning to main page')" value="Thank You">
+
+            </form>
+
+        </div>
+
+
+
+    </body>
+
+
+
+</html>

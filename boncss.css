@@ -1,0 +1,42 @@
+body{
+  font-family: 'Flamenco', cursive;
+}
+/* Utilty Classes*/
+h1{text-align: center; color: #bf55ec; font-weight: normal; margin-bottom: 40px;font-weight: 600;}
+h3{color: #bf55ec; }
+.img-responsive {
+  max-width: 100%;
+   border-radius: 30px;
+}
+a:link{
+	color: #808000;
+}
+
+
+a:hover{
+	color: #FFC30F;
+}
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 30%;
+	margin-left: .5rem;
+}
+
+.product_heading{
+	text-align: center;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
